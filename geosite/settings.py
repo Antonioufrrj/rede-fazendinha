@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from decouple import config, Csv
+<<<<<<< HEAD
 import django_on_heroku
 from dj_database_url import parse as db_url
 
@@ -24,6 +25,10 @@ if os.name == 'nt':
     os.environ['PATH'] = os.path.join(VIRTUAL_ENV_BASE, r'.\Lib\site-packages\osgeo') + ';' + os.environ['PATH']
     os.environ['PROJ_LIB'] = os.path.join(VIRTUAL_ENV_BASE, r'.\Lib\site-packages\osgeo\data\proj') + ';' + os.environ['PATH']
 
+=======
+from dj_database_url import parse as db_url
+import django_heroku
+>>>>>>> 97ac52db98a8f13bd005bb46924b505a54f99f63
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -146,7 +151,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 django_on_heroku.settings(locals())
+=======
+>>>>>>> 97ac52db98a8f13bd005bb46924b505a54f99f63
 
 LEAFLET_CONFIG = {
     'SPATIAL_EXTENT': (
@@ -163,5 +171,9 @@ LEAFLET_CONFIG = {
                {'attribution': '&copy; Google'})]
 }
 
+<<<<<<< HEAD
 
 
+=======
+django_heroku.settings(locals())
+>>>>>>> 97ac52db98a8f13bd005bb46924b505a54f99f63

@@ -3,7 +3,11 @@
   <component name="ProjectResources">
     <resource url="django" location="$PROJECT_DIR$/manage.py" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (geosite) (2)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (geosite)" project-jdk-type="Python SDK" />
+>>>>>>> 97ac52db98a8f13bd005bb46924b505a54f99f63
   <component name="PyCharmProfessionalAdvertiser">
     <option name="shown" value="true" />
   </component>
