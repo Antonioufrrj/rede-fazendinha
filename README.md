@@ -214,4 +214,10 @@ heroku run python manage.py migrate
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins acadêmicos e de pesquisa na UFRRJ (Universidade Federal Rural do Rio de Janeiro).
+Este projeto foi desenvolvido para fins acadêmicos e de pesquisa na Universidade Federal Rural do Rio de Janeiro (UFRRJ).
+
+É permitida a cópia, distribuição, modificação e utilização deste material, total ou parcialmente, desde que seja devidamente citada a fonte original, incluindo o(s) autor(es) e a instituição de vínculo.
+
+O uso deste projeto não implica em qualquer tipo de garantia, sendo de inteira responsabilidade do usuário a aplicação das informações aqui contidas.
+
+Para fins de citação, recomenda-se referenciar este trabalho conforme as normas acadêmicas vigentes.
